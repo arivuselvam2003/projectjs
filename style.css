@@ -1,40 +1,15 @@
-#game{
-    width: 1000px;
-    height: 600px;
-    border: 1px solid black;
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:yellow;
+    color: black;
+    text-align: center;
 }
-
-#pipe{
-    width: 100px;
-    height: 600px;
-    position: relative;
-    left: 900px;
-    background-color: darkcyan;
-    animation: pipe 4s infinite linear;
+#input{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
 }
-
-#pipe-gap{
-    width: 100px;
-    height: 200px;
-    position: relative;
+#list-container{
     background-color: white;
-    top: 200px;
-}
-
-#bird {
-    width: 50px;
-    height: 10px;
-    background-color: tomato;
-    position: relative;
-    top: -300px;
-}
-
-@keyframes pipe {
-    0% {
-        left: 900px;
-    }
-
-    100% {
-        left: -100px;
-    }
+    text-align: center;
 }
